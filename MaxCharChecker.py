@@ -15,7 +15,7 @@ ASCII_ = []
 for a in range(0, 256):
     ASCII_.append(chr(a))
 
-Letters = ['t','i','s','h']#which words can only be made with dots with morse code
+Letters = ['e','i','s','h']#which words can only be made with dots with morse code
 Characters = ASCII_
 for b in range(len(Letters)):
     Characters.remove(Letters[b])
